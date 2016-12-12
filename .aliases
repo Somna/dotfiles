@@ -157,7 +157,7 @@ alias reload="exec $SHELL -l"
 alias path='echo -e ${PATH//:/\\n}'
 
 
-alias a='ack -i --pager="/usr/bin/less -R"'
+alias s='ack -i --pager="/usr/bin/less -R"'
 alias la="ls -la"
 alias giti="~/Scripts/git-init.sh"
 alias git-clear="~/Scripts/git-clear.sh"
