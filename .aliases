@@ -155,3 +155,18 @@ alias reload="exec $SHELL -l"
 
 # Print each PATH entry on a separate line
 alias path='echo -e ${PATH//:/\\n}'
+
+
+alias a='ack -i --pager="/usr/bin/less -R"'
+alias la="ls -la"
+alias giti="~/Scripts/git-init.sh"
+alias git-clear="~/Scripts/git-clear.sh"
+alias tiger="ssh tiger"
+alias t="translate"
+alias tvu="tiger vcrunch-update"
+alias beget="ssh beget"
+alias vcrunch="cd ~/Projects/vcrunch"
+alias alias-list="cat ~/.bash* ~/.zprofile ~/.aliases | grep '^alias'"
+alias tsm="tiger switch-member"
+alias yatpl="yat -l pl-ru"
+alias render-emails="~/Projects/vcrunch/public_html/devel/vcrunch-emails-render/bin/compile -p ~/Projects/vcrunch/public_html/"
